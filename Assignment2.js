@@ -7,11 +7,11 @@ console.log(typeof number)
 
 
 // Question 2
-// Converted "20" into a number explicitly using Number() function
+// Converted "20" into a number using parseInt() function
 const printSum = parseInt("20") + 40.      //let the result print 60. //*hint: 60.*
 console.log(printSum)
 
-// Concatenated the variable printSum to create the sentence
+// Enclosed 23 & 4 in brackets to fix the sum error in the sentence
 const sentence = "I am " + (23 + 4) + " years old"     //*hint: “I am 27 years old”*
 console.log(sentence)
 
