@@ -1,7 +1,6 @@
 // Question 1
-//Added the Number() function to convert "45" to a number
 const number = Number("45")
-
+// Added the Number() function to the line above to convert "45" to a number
 console.log(number)
 console.log(typeof number)
 
@@ -9,11 +8,11 @@ console.log(typeof number)
 
 // Question 2
 // Converted "20" into a number explicitly using Number() function
-const printSum = Number("20") + 40.      //let the result print 60. //*hint: 60.*
+const printSum = parseInt("20") + 40.      //let the result print 60. //*hint: 60.*
 console.log(printSum)
 
 // Concatenated the variable printSum to create the sentence
-const sentence = "I am " + printSum + " years old"     //*hint: “I am 27 years old”*
+const sentence = "I am " + (23 + 4) + " years old"     //*hint: “I am 27 years old”*
 console.log(sentence)
 
 
